@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\testunreal\\unrealstudy\\interfacetest\\source\\interfacetest\\interfacetest.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\testunreal\\unrealstudy\\interfacetest\\intermediate\\build\\win64\\x64\\interfacetesteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\testunreal\\unrealstudy\\interfacetest\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\interfacetest\\definitions.interfacetest.h",
+            "d:\\testunreal\\unrealstudy\\interfacetest\\source\\interfacetest\\interfacetest.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

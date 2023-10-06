@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "InterfaceTest",
+			"Path": "..\\Source\\InterfaceTest.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "InterfaceTestEditor",
+			"Path": "..\\Source\\InterfaceTestEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
