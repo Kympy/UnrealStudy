@@ -72,3 +72,13 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+*/Saved/*
+*/DerivedDataCache/*
+
+*/Intermediate/*
+*/Plugins/*/Intermediate/*
+InterfaceTest/Saved/AutoScreenshot.png
+InterfaceTest/Saved/Logs/InterfaceTest.log
+InterfaceTest/Saved/Config/WindowsEditor/Engine.ini
+InterfaceTest/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
