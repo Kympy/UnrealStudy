@@ -45,6 +45,12 @@
     <ClInclude Include="..\..\Source\InterfaceTest\InterfaceTest.h">
       <Filter>Source\InterfaceTest</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\InterfaceTest\LessonInterface.cpp">
+      <Filter>Source\InterfaceTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InterfaceTest\LessonInterface.h">
+      <Filter>Source\InterfaceTest</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\InterfaceTest\Person.cpp">
       <Filter>Source\InterfaceTest</Filter>
     </ClCompile>

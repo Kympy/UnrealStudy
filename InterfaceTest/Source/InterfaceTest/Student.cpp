@@ -7,3 +7,8 @@ UStudent::UStudent()
 {
 	Name = TEXT("Student");
 }
+
+void UStudent::DoLesson()
+{
+	UE_LOG(LogTemp, Log, TEXT("Study"));
+}

@@ -16,9 +16,19 @@ void UCustomGameInstance::Init()
 	for (const TArray<UPerson*>::ElementType Person : People)
 	{
 		UE_LOG(LogTemp, Log, TEXT("(Foreach)Name is : %s"), *Person->GetName());
+		
+		ILessonInterface* LessonInterface = Cast<ILessonInterface>(Person);
+		if (LessonInterface)
+		{
+			LessonInterface->DoLesson();
+		}
+		else
+		{
+			UE_LOG(LogTemp, Log, TEXT("Cannot do lesson."));
+		}
 	}
-	for (auto It = People.CreateConstIterator(); It; It++)
-	{
-		UE_LOG(LogTemp, Log, TEXT("(Iterator)Name is : %s"), *People[It.GetIndex()]->GetName());
-	}
+	//for (auto It = People.CreateConstIterator(); It; It++)
+	//{
+	//	UE_LOG(LogTemp, Log, TEXT("(Iterator)Name is : %s"), *People[It.GetIndex()]->GetName());
+	//}
 }

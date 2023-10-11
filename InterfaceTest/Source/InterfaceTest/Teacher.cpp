@@ -7,3 +7,8 @@ UTeacher::UTeacher()
 {
 	Name = TEXT("Teacher");
 }
+
+void UTeacher::DoLesson()
+{
+	UE_LOG(LogTemp, Log, TEXT("Teach"));
+}

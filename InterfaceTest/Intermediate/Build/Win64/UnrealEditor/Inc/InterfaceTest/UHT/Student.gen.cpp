@@ -9,6 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStudent() {}
 // Cross Module References
+	INTERFACETEST_API UClass* Z_Construct_UClass_ULessonInterface_NoRegister();
 	INTERFACETEST_API UClass* Z_Construct_UClass_UPerson();
 	INTERFACETEST_API UClass* Z_Construct_UClass_UStudent();
 	INTERFACETEST_API UClass* Z_Construct_UClass_UStudent_NoRegister();
@@ -28,6 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeStudent() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +47,10 @@ void EmptyLinkFunctionForGeneratedCodeStudent() {}
 		{ "ModuleRelativePath", "Student.h" },
 	};
 #endif
+		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_UStudent_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_ULessonInterface_NoRegister, (int32)VTABLE_OFFSET(UStudent, ILessonInterface), false },  // 2496240281
+		};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UStudent_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UStudent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UStudent>::IsAbstract,
 	};
@@ -55,11 +61,11 @@ void EmptyLinkFunctionForGeneratedCodeStudent() {}
 		DependentSingletons,
 		nullptr,
 		nullptr,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x001000A0u,
 		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UStudent_Statics::Class_MetaDataParams), Z_Construct_UClass_UStudent_Statics::Class_MetaDataParams)
 	};
@@ -82,9 +88,9 @@ void EmptyLinkFunctionForGeneratedCodeStudent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestUnreal_UnrealStudy_InterfaceTest_Source_InterfaceTest_Student_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UStudent, UStudent::StaticClass, TEXT("UStudent"), &Z_Registration_Info_UClass_UStudent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStudent), 1911330610U) },
+		{ Z_Construct_UClass_UStudent, UStudent::StaticClass, TEXT("UStudent"), &Z_Registration_Info_UClass_UStudent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStudent), 1550175357U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestUnreal_UnrealStudy_InterfaceTest_Source_InterfaceTest_Student_h_1272090721(TEXT("/Script/InterfaceTest"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_TestUnreal_UnrealStudy_InterfaceTest_Source_InterfaceTest_Student_h_2598214660(TEXT("/Script/InterfaceTest"),
 		Z_CompiledInDeferFile_FID_TestUnreal_UnrealStudy_InterfaceTest_Source_InterfaceTest_Student_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_TestUnreal_UnrealStudy_InterfaceTest_Source_InterfaceTest_Student_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

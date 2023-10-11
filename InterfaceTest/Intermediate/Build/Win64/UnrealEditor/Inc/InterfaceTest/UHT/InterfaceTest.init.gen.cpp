@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeInterfaceTest_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x81E5E968,
-				0x10B4821B,
+				0x942D60B7,
+				0x6F95D28D,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_InterfaceTest.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_InterfaceTest.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_InterfaceTest(Z_Construct_UPackage__Script_InterfaceTest, TEXT("/Script/InterfaceTest"), Z_Registration_Info_UPackage__Script_InterfaceTest, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x81E5E968, 0x10B4821B));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_InterfaceTest(Z_Construct_UPackage__Script_InterfaceTest, TEXT("/Script/InterfaceTest"), Z_Registration_Info_UPackage__Script_InterfaceTest, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x942D60B7, 0x6F95D28D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
