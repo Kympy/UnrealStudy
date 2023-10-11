@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\TestUnreal\\UnrealStudy\\InterfaceTest\\Source\\InterfaceTest\\InterfaceTest.Build.cs",
-		"D:\\TestUnreal\\UnrealStudy\\InterfaceTest\\Source\\InterfaceTest.Target.cs",
-		"D:\\TestUnreal\\UnrealStudy\\InterfaceTest\\Source\\InterfaceTestEditor.Target.cs"
-	],
-	"EngineVersion": "5.3.1"
-}
